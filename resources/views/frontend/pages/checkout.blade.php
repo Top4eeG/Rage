@@ -85,7 +85,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-12">
                                         <div class="form-group">
-                                            <label>Адрес 1<span>*</span></label>
+                                            <label>Адрес<span>*</span></label>
                                             <input type="text" name="address1" placeholder="" value="{{old('address1')}}">
                                             @error('address1')
                                                 <span class='text-danger'>{{$message}}</span>
@@ -164,7 +164,7 @@
                                             {{-- <label class="checkbox-inline" for="1"><input name="updates" id="1" type="checkbox"> Check Payments</label> --}}
                                             <form-group>
                                                 <input name="payment_method"  type="radio" value="cod"> <label> Наличными при доставке</label><br>
-                                                <input name="payment_method"  type="radio" value="paypal"> <label> PayPal</label>
+<!--                                                <input name="payment_method"  type="radio" value="paypal"> <label> PayPal</label>-->
                                             </form-group>
 
                                         </div>
@@ -174,7 +174,7 @@
                                 <!-- Payment Method Widget -->
                                 <div class="single-widget payement">
                                     <div class="content">
-                                        <img src="{{('backend/img/payment-method.png')}}" alt="#">
+<!--                                        <img src="{{('backend/img/payment-method.png')}}" alt="#">-->
                                     </div>
                                 </div>
                                 <!--/ End Payment Method Widget -->

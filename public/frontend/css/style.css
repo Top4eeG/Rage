@@ -1550,7 +1550,7 @@
 	font-size: 22px;
 	font-weight: 700;
 	text-transform: capitalize;
-	color: #333;
+	color: white;
 }
 .small-banner .single-banner h3 span{
 	color:#F7941D;
@@ -1563,14 +1563,14 @@
 	text-transform: capitalize;
 }
 .small-banner .single-banner a {
-	color: #333;
+	color: white;
 	margin-top: 22px;
 	display: block;
 	font-size: 12px;
 	font-weight:500;
 	display: inline-block;
 	text-transform:uppercase;
-	border-bottom:2px solid #333;
+	border-bottom:2px solid white;
 }
 .small-banner .single-banner a:hover{
 	color:#F7941D;
